@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    border: solid 1px red;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.qr-container{
+    border: solid 1px greenyellow;
+    width: 300px;
+    height: 450px;
+}
+
+.image-container{
+    border: solid 1px blueviolet;
+    height: 50%;
+}
+
+.text-container{
+    border: solid 1px blue;
+    height: 50%;
+}
+
+.text1-container{
+    border: solid 1px black;
+    height: 50%;
+}
+
+.text2-container{
+    border: solid 1px black;
+    height: 50%;
+}
