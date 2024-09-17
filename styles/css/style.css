@@ -73,3 +73,15 @@ img{
     color: var(--slate500);
     font-size: 15px;
 }
+
+@media only screen and (max-width: 320px) {
+    .container, .text-container, .text1-container, .text2-container, .image-container{
+        overflow: hidden;
+    }
+}
+
+@media only screen and (max-height: 480px) {
+    .container, .text-container, .text1-container, .text2-container, .image-container{
+        overflow: hidden;
+    }
+}
